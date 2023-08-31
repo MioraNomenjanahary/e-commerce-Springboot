@@ -1,4 +1,4 @@
-package com.gamo.ecommerce1.DAO;
+package com.gamo.ecommerce1.repository;
 
 import com.gamo.ecommerce1.model.Customers;
 import org.springframework.stereotype.Repository;
@@ -12,7 +12,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 @Repository
-    public class CRUDCustomers implements CustomersRepository {
+    public class CRUDCustomers implements CustomersRepository{
         private final DataSource dataSource;
         public CRUDCustomers(DataSource dataSource) {
             this.dataSource = dataSource;

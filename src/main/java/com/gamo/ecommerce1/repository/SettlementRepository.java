@@ -1,4 +1,4 @@
-package com.gamo.ecommerce1.DAO;
+package com.gamo.ecommerce1.repository;
 
 import com.gamo.ecommerce1.model.Settlement;
 import org.springframework.stereotype.Repository;

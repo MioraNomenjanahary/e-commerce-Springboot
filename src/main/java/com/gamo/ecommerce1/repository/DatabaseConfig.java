@@ -1,4 +1,4 @@
-package com.gamo.ecommerce1.DAO;
+package com.gamo.ecommerce1.repository;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
